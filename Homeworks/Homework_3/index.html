@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="form">
+            <form action="#" method="#">    
+                <legend class="legend">Please fill out the form below</legend>
+                <label class="text" for="name">Full name</label>
+                <input class="input" id="name" type="text">
+                <label class="text" for="mail">Your e-mail address</label>
+                <input class="input" id="mail" type="email">
+                <label class="text" for="tel">Your phone number</label>
+                <input class="input" type="tel" id="tel">
+                <label class="text">Select your country</label>
+                <select class="input">
+                    <option>UK</option>
+                    <option>US</option>
+                    <option>UA</option>
+                    <option>PL</option>
+                </select>
+                <label class="bigger-text">I want to attend event</label>
+                <div class="status">
+                    <label><input class="radio online" type="radio" name="status">online</label>
+                    <label><input class="radio" type="radio" name="status">offline</label>
+                </div>
+                <label class="text">Сomments</label>
+                <textarea class="input textarea"></textarea>
+                <input class="checkbox" type="checkbox" id="privacy">
+                <label class="checkbox-text" for="privacy">I agree with the <a href="#">privacy policy</a></label>
+                <div class="footer">
+                    <input class="button clear" type="reset" value="Clear form">
+                    <button class="button" type="submit">Submit form</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
